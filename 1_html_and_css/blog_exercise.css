@@ -1,0 +1,36 @@
+body {
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	/* width is 75%, but 700px at a maximum */
+	width: 75%;
+	max-width: 700px;
+	/* margin: 20px top & bottom, auto left & right */
+	margin: 20px auto;
+	font-family: source sans pro;
+}
+
+.date {
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #3498db;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	text-transform: capitalize;
+	text-shadow: 0 0 10px #FC0;
+	color: #2c3e50;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 10px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	/* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
+	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}

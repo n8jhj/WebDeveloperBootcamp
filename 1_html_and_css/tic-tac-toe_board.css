@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	padding: 50px;
+}
+
+.vert-center {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.horz-center {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}

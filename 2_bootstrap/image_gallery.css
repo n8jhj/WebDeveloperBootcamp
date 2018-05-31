@@ -1,0 +1,31 @@
+body {
+	padding-top: 70px;
+}
+
+.thumbnail{
+    /* https://stackoverflow.com/questions/23379318/have-thumbnails-with-different-images-sizes-bootstrap */
+    height: 300px;
+}
+
+.thumbnail img{
+    /* https://stackoverflow.com/questions/23379318/have-thumbnails-with-different-images-sizes-bootstrap */
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
